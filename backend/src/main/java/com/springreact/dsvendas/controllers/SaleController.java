@@ -16,7 +16,7 @@ import com.springreact.dsvendas.dto.SaleSumDTO;
 import com.springreact.dsvendas.service.SaleService;
 
 @RestController
-@RequestMapping(value = "/Sales")
+@RequestMapping(value = "/sales")
 public class SaleController {
 	
 	@Autowired
