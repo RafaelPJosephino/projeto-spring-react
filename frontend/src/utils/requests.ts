@@ -1,1 +1,1 @@
-export const Base_Url = 'https://spring-react-rafael-josephino.herokuapp.com'; 
+export const Base_Url = process.env.REACT_APP_BACKEND_URL ?? 'https://localhost:8080'; 
